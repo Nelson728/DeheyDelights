@@ -19,8 +19,6 @@
     </head>
     <style>
         .navButton{
-            height: 100%;
-            width: 100px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -28,10 +26,6 @@
         #navButtonCon {
             display: flex;
             position: relative;
-            float: right;
-            align-items: center;
-            justify-content: center;
-            flex-direction: row;
         }
         .sections p{
             margin: 15px;
@@ -62,7 +56,16 @@
             
         }
         @media (min-width: 650px) {
-            
+            .navButton {
+                height: 100%;
+                width: 100px;
+            }
+            #navButtonCon {
+                float: right;
+                align-items: center;
+                justify-content: center;
+                flex-direction: row;
+            }
             #icon {
                 width: 100px;
                 padding-left: 50px;
