@@ -18,7 +18,11 @@
             href="https://www.deheydelights.com/imgSrc/ddDragonfly.jpg">
     </head>
     <style>
-        #navBar div {
+        .navButton{
+            height: 100%;
+            width: 100px;
+        }
+        #navButtonCon {
             display: flex;
             align-items: center;
             justify-content: center;
@@ -83,10 +87,18 @@
                 <h1
                     style="display: flex; align-items: center; justify-content: center;">Dehey
                     Delights</h1>
-                <div>
-                    <a href>About us</a>
-                    <a href>Store</a>
-                    <a href>Contact us</a>
+                <div id="navButtonCon">
+                    <div class="navButton">
+                        <a href>About us</a>
+                    </div>
+                    <div class="navButton">
+                        <a href>Store</a>
+
+                    </div>
+                    <div class="navButton">
+                        <a href>Contact us</a>
+
+                    </div>
                 </div>
 
             </dir>
