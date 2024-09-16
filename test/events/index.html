@@ -42,6 +42,7 @@
         .eventBody {
             display: flex;
             flex: 4;
+            flex-direction: row-reverse;
         }
         .eventNav {
             display: flex;
@@ -54,6 +55,12 @@
             display: flex;
             right: 0;
             flex: 0.25;
+        }
+        .eventDate{
+            flex: 1;
+        }
+        .eventTime{
+            flex: 1;
         }
 
         #navButtonCon {
@@ -147,7 +154,12 @@
                     </div>
                     <div class="eventBody">
                         <div class="eventDateAndTime">
+                            <div class="eventDate">
 
+                            </div>
+                            <div class="eventTime">
+
+                            </div>
                         </div>
                     </div>
                     <div class="eventNav">
